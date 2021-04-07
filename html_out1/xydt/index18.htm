@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="x-ua-compatible" content="IE=edge">
+
+	<title>校园动态 - 广州南方学院</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	
+	<link rel="stylesheet" type="text/css" href="../css/swiper-3.3.1.min.css">
+	<link href="../css/lin.css" rel="stylesheet" type="text/css">
+
+	<script src="../js/jquery-1.11.3.min.js"></script>
+	<script src="../js/jquery-1.11.1.js"></script>
+	<script src="../js/jquery.easie-min.js" type="text/javascript"></script>
+	<script src="../js/swiper.min.js" type="text/javascript"></script>
+	<script src="../js/lin.js"></script>
+	
+	
+	<link href="../css/page.css" rel="stylesheet" type="text/css">
+	<link href="http://www.nfu.edu.cn/Public/favicon.ico" rel="Shortcut Icon">
+	<link href="http://www.nfu.edu.cn/Public/favicon.ico" rel="Bookmark">
+
+<script type="text/javascript"> 
+	var browser={
+	    versions:function(){
+	        var u = navigator.userAgent, app = navigator.appVersion;
+	        return {//移动终端浏览器版本信息
+	            trident: u.indexOf('Trident') > -1, //IE内核
+	            presto: u.indexOf('Presto') > -1, //opera内核
+	            webKit: u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核
+	            gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1, //火狐内核
+	            mobile: !!u.match(/AppleWebKit.*Mobile.*/)||u.indexOf('iPad') > -1, //是否为移动终端
+	            ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+	            android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //android终端或者uc浏览器
+	            iPhone: u.indexOf('iPhone') > -1, //是否为iPhone或者QQHD浏览器
+	            iPad: u.indexOf('iPad') > -1, //是否iPad
+	            webApp: u.indexOf('Safari') == -1 //是否web应该程序，没有头部与底部
+	        };
+	    }(),
+	}
+	if(browser.versions.android || browser.versions.iPhone){
+		var url = document.location.href ;
+		var ext = url.substr(url.lastIndexOf("."),url.length) ;
+		if(ext != null && (ext == '.htm' || ext == '.html')){
+			url = url.substr(0,url.lastIndexOf(".")) ;
+			url = url + "_mobile" + ext ;
+		}else{
+			url = url + "index_mobile.htm" ;
+		}
+		document.location = url ;
+	}
+</script>
+ </head>
+<body>
+<!--头部-->
+	
+<div class="lin-header ">
+		<div class="lin-head clearfix">
+			<h1 class="lin-topl">
+				<a href="../index.htm" target="_blank" title="广州南方学院">
+					<img src="../images/logo.png">
+				</a>
+			</h1>
+			<div class="lin-topr">
+				<div class="lin-youxiang">
+					<!--<a href="http://oa.nfu.edu.cn/" target="_blank">办公系统</a>-->
+					<a href="http://en.nfu.edu.cn/">English Version</a>
+						<!-- <a href="https://mail.nfu.edu.cn/" target="_blank">邮箱登录</a>
+							<a href="mailto:nfcsysuyz@126.com" target="_blank" title="nfcsysuyz@126.com" >院长信箱</a> -->
+				</div>
+				<div class="lin-ser lin-serhide">
+					<div class="serbox">
+						<form action="/cms/web/search/index.jsp" method="get" id="search_form">
+							<input name="siteID" value="bbef6bf928be491d9180b44993df0ac9" type ="hidden"> 
+							<input type="text" name="query" id="keyword" placeholder="搜索">
+							<a href="javascript:;" id="search_btn">
+							</a>
+						</form>	
+						<script type="text/javascript">
+							$("#search_btn").click(function(){
+								var keyword=$("#keyword").val();
+								if(keyword==''){
+									alert('* 请输入搜索关键词 !');
+									$("#keyword").focus();
+									return false;
+								}else{
+									$("#search_form").submit();
+								}
+							})
+						</script>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+			<!-- end 头部-->
+			<!--导航条-->
+			<div class="lin-navbar">
+				<p class="navnav">
+					<span>
+					</span>
+					<span>
+					</span>
+					<span>
+					</span>
+				</p>
+				<ul class="lin-nav clearfix">
+					<li class="lin-navli"><a href="../index.htm">首页</a></li>
+															<li class="lin-navli">
+						<a href="../xxgk/index.htm" target="_blank">学校概况</a>
+						<div class="lin-navdiv">
+							<div class="sonnav-bg">
+								<ul class="nav-conul clearfix" style="padding-left: 99px;">
+																														<li><a href="../xxgk/xxjj/index.htm" target="_self">学校简介</a></li>
+																																								<li><a href="../xxgk/xrld/index.htm" target="_self">现任领导</a></li>
+																																								<li><a href="../xxgk/xhxxxg/index.htm" target="_self">校徽  校训  校歌</a></li>
+																																								<li><a href="../xxgk/nfdsj/index.htm" target="_self">南方大事记</a></li>
+																																								<li><a href="../xxgk/xxxl/index.htm" target="_self">学校校历</a></li>
+																											</ul>
+							</div>
+						</div>
+					</li>
+																					<li class="lin-navli">
+							<a href="http://cpc.nfu.edu.cn/" target="_self">党建之窗</a>
+						</li>
+																				<li class="lin-navli">
+						<a href="../jgsz/index.htm" target="_blank">机构设置</a>
+						<div class="lin-navdiv">
+							<div class="sonnav-bg">
+								<ul class="nav-conul clearfix" style="padding-left: 99px;">
+																														<li><a href="../jgsz/yxsz/index.htm" target="_self">院系设置</a></li>
+																																								<li><a href="../jgsz/gljg/index.htm" target="_self">管理机构</a></li>
+																																								<li><a href="../jgsz/cswyh/index.htm" target="_self">常设委员会</a></li>
+																											</ul>
+							</div>
+						</div>
+					</li>
+																				<li class="lin-navli">
+						<a href="../rcpy/index.htm" target="_blank">人才培养</a>
+						<div class="lin-navdiv">
+							<div class="sonnav-bg">
+								<ul class="nav-conul clearfix" style="padding-left: 99px;">
+																														<li><a href="../rcpy/msjs/index.htm" target="_self">名师介绍</a></li>
+																																								<li><a href="../rcpy/bkjy/index.htm" target="_self">本科教育</a></li>
+																																								<li><a href="../rcpy/jxjy/index.htm" target="_self">继续教育</a></li>
+																											</ul>
+							</div>
+						</div>
+					</li>
+																				<li class="lin-navli">
+						<a href="../jxky/index.htm" target="_blank">教学科研</a>
+						<div class="lin-navdiv">
+							<div class="sonnav-bg">
+								<ul class="nav-conul clearfix" style="padding-left: 99px;">
+																														<li><a href="http://jw.nfu.edu.cn/" target="_self">教务部</a></li>
+																																								<li><a href="../jxky/kyxxydt/index.htm" target="_self">科研部</a></li>
+																																								<li><a href="../jxky/kyjg/index.htm" target="_self">科研机构</a></li>
+																											</ul>
+							</div>
+						</div>
+					</li>
+																				<li class="lin-navli">
+						<a href="../zsjy/index.htm" target="_blank">招生就业</a>
+						<div class="lin-navdiv">
+							<div class="sonnav-bg">
+								<ul class="nav-conul clearfix" style="padding-left: 99px;">
+																														<li><a href="http://zsb.nfu.edu.cn/" target="_self">本科招生</a></li>
+																																								<li><a href="http://jx.nfu.edu.cn/" target="_self">继续教育</a></li>
+																																								<li><a href="../zsjy/jyfw/index.htm" target="_self">就业服务</a></li>
+																											</ul>
+							</div>
+						</div>
+					</li>
+																				<li class="lin-navli">
+						<a href="../tsg/index.htm" target="_blank">图书馆</a>
+						<div class="lin-navdiv">
+							<div class="sonnav-bg">
+								<ul class="nav-conul clearfix" style="padding-left: 99px;">
+																														<li><a href="http://lib.nfu.edu.cn/" target="_self">图书馆</a></li>
+																																								<li><a href="http://das.nfu.edu.cn/" target="_self">档案室</a></li>
+																																								
+																											</ul>
+							</div>
+						</div>
+					</li>
+																				<li class="lin-navli">
+						<a href="../hzjl/index.htm" target="_blank">合作交流</a>
+						<div class="lin-navdiv">
+							<div class="sonnav-bg">
+								<ul class="nav-conul clearfix" style="padding-left: 99px;">
+																														<li><a href="http://gj.nfu.edu.cn/" target="_self">国际交流</a></li>
+																																								<li><a href="http://gj.nfu.edu.cn/Home/Waishi/waishilist/class/1/p/1.html" target="_self">外事服务</a></li>
+																																								
+																											</ul>
+							</div>
+						</div>
+					</li>
+																				<li class="lin-navli">
+						<a href="../rczp/index.htm" target="_blank">人才招聘</a>
+						<div class="lin-navdiv">
+							<div class="sonnav-bg">
+								<ul class="nav-conul clearfix" style="padding-left: 99px;">
+																														<li><a href="../rczp/jsxl/index.htm" target="_self">教师系列</a></li>
+																																								<li><a href="../rczp/glxl/index.htm" target="_self">管理系列</a></li>
+																											</ul>
+							</div>
+						</div>
+					</li>
+																				<li class="lin-navli">
+						<a href="../zjnf/index.htm" target="_blank">走进南方</a>
+						<div class="lin-navdiv">
+							<div class="sonnav-bg">
+								<ul class="nav-conul clearfix" style="padding-left: 99px;">
+																														<li><a href="../zjnf/tsnf/index.htm" target="_self">图说南方</a></li>
+																																								<li><a href="../zjnf/shfw/index.htm" target="_self">生活服务</a></li>
+																																								<li><a href="../zjnf/ylfw/index.htm" target="_self">医疗服务</a></li>
+																																								<li><a href="../zjnf/xb/index.htm" target="_self">校报</a></li>
+																																								<li><a href="../zjnf/jtzy/index.htm" target="_self">交通指引</a></li>
+																											</ul>
+							</div>
+						</div>
+					</li>
+																	
+				</ul>
+						
+			</div>
+			<div class="lin-navbg"></div>
+
+	<!--content-->
+	<div class="lin-content">
+		<div class="lin-neiye clearfix">
+			
+<div class="list_left clearfix">
+	<div class="list_title">校园动态</div>
+	<div class="list_con">
+	  <p class="nav-ny">
+	   <span> </span>
+	   <span></span>
+	   <span></span>
+		</p>
+		<ul class="list_ul">
+																																																																																																																										<li>
+													<a href="../xxyw/index.htm">学校要闻<span class="yuan"></span></a>
+											  <ul class="in_ul">
+					  </ul>
+					</li>
+																<li>
+													<a href="index.htm" class="current_in">校园动态<span class="yuan"></span></a>
+											  <ul class="in_ul">
+					  </ul>
+					</li>
+																<li>
+													<a href="../tzgg/index.htm">通知公告<span class="yuan"></span></a>
+											  <ul class="in_ul">
+					  </ul>
+					</li>
+																<li>
+													<a href="../ztb/index.htm">招投标<span class="yuan"></span></a>
+											  <ul class="in_ul">
+					  </ul>
+					</li>
+																<li>
+													<a href="../gjdt/index.htm">高教动态<span class="yuan"></span></a>
+											  <ul class="in_ul">
+					  </ul>
+					</li>
+																																																																																																																																																																																																																																																																						</ul>
+	</div>
+</div>			<div class="list_right">
+				<div class="fan clearfix">
+					<span class="fan_title">校园动态</span>
+					<span class="fan_right">您当前位置是：                 <a href="../index.htm">网站首页</a> > 
+        <font>校园动态</font>
+				</div>
+				<div class="ny_content">
+					<ul class="list-ul">
+													<li>
+								<font class="right-more">2019-12-03</font>
+								<div class="news_title">
+									<a href="af7dfe2ee9d74552be9805fcedec0f68.htm" title="选课问题知多少？——会计学院召开各年级选课宣讲会">            选课问题知多少？——会计学院召开各年级选课宣讲会 
+    </a>
+								</div>
+							</li>
+													<li>
+								<font class="right-more">2019-12-03</font>
+								<div class="news_title">
+									<a href="c2ed13dc220e42c7ab66bf8a320f3750.htm" title="互联网时代的业财融合——财经名家讲坛暨会计学院（系）成立十周年系列学术讲座开讲">            互联网时代的业财融合——财经名家讲坛暨会计学院（系）成立十周年系列学术讲座开讲 
+    </a>
+								</div>
+							</li>
+													<li>
+								<font class="right-more">2019-12-03</font>
+								<div class="news_title">
+									<a href="c3865d53e08046b38185b31094551562.htm" title="广西民族师范学院财务管理系徐德安主任一行与我院交流ACCA办学经验">            广西民族师范学院财务管理系徐德安主任一行与我院交流ACCA办学经验 
+    </a>
+								</div>
+							</li>
+													<li>
+								<font class="right-more">2019-12-02</font>
+								<div class="news_title">
+									<a href="570a946ff8b74cd5b2fb8649c7f50b9b.htm" title="唇枪舌剑识乾坤 滔滔雄辩明真理——第十一届班级辩论赛决赛暨闭幕式圆满举行">            唇枪舌剑识乾坤 滔滔雄辩明真理——第十一届班级辩论赛决赛暨闭幕式圆满举行 
+    </a>
+								</div>
+							</li>
+													<li>
+								<font class="right-more">2019-12-02</font>
+								<div class="news_title">
+									<a href="6f1352ba399245bbb7d0a97fa86ac7b0.htm" title="校企合作 实践育人——会计学院师生一行赴佛山毕马威服务中心参观学习">            校企合作 实践育人——会计学院师生一行赴佛山毕马威服务中心参观学习 
+    </a>
+								</div>
+							</li>
+													<li>
+								<font class="right-more">2019-12-02</font>
+								<div class="news_title">
+									<a href="722d7de3407d44bea2ba526585913247.htm" title="传承分享、助力考研——会计学院2019学年度考研讲座顺利举行">            传承分享、助力考研——会计学院2019学年度考研讲座顺利举行 
+    </a>
+								</div>
+							</li>
+													<li>
+								<font class="right-more">2019-11-29</font>
+								<div class="news_title">
+									<a href="2293960392c24797a21f96f22f54bb82.htm" title="商学院应用型教材编写推进会顺利召开">            商学院应用型教材编写推进会顺利召开 
+    </a>
+								</div>
+							</li>
+													<li>
+								<font class="right-more">2019-11-29</font>
+								<div class="news_title">
+									<a href="25a03c59214a4753a7e4cd3410d3b4b2.htm" title="商学院党建带团建系列活动正在进行时——“党员开讲啦，我为团支书上团课”第一课成功开讲">            商学院党建带团建系列活动正在进行时——“党员开讲啦，我为团支书上团课”第一课成功开讲 
+    </a>
+								</div>
+							</li>
+													<li>
+								<font class="right-more">2019-11-29</font>
+								<div class="news_title">
+									<a href="371b1e21744b44508d696e5aefe59364.htm" title="【不忘初心、牢记使命】铭义于心，寓教于情——商学院学生第五党支部举办“爱国课堂”义教活动">            【不忘初心、牢记使命】铭义于心，寓教于情——商学院学生第五党支部举办“爱国课堂”义教活动 
+    </a>
+								</div>
+							</li>
+													<li>
+								<font class="right-more">2019-11-29</font>
+								<div class="news_title">
+									<a href="b5847cbad93c415896384639e8bb6edd.htm" title="“不忘初心、牢记使命”主题教育——商学院学生第四党支部“读原著、学原文、悟原理”读书分享会">            “不忘初心、牢记使命”主题教育——商学院学生第四党支部“读原著、学原文、悟原理”读书分享会 
+    </a>
+								</div>
+							</li>
+													<li>
+								<font class="right-more">2019-11-27</font>
+								<div class="news_title">
+									<a href="64941b5361a24a6aa85445e9ccecb890.htm" title="“不忘初心、牢记使命”主题教育——商学院学生第二党支部“青春我要跟党走，志愿服务践初心”志愿服务活动">            “不忘初心、牢记使命”主题教育——商学院学生第二党支部“青春我要跟党走，志愿服务践初心”志... 
+    </a>
+								</div>
+							</li>
+													<li>
+								<font class="right-more">2019-11-27</font>
+								<div class="news_title">
+									<a href="b1ddd42650764634b2d2e47293a5c3a4.htm" title="护理与健康学院直属党支部 “不忘初心、牢记使命”主题教育之“康园?情暖与爱同行”主题志愿服务活动">            护理与健康学院直属党支部 “不忘初心、牢记使命”主题教育之“康园?情暖与爱同行”主题志愿服... 
+    </a>
+								</div>
+							</li>
+													<li>
+								<font class="right-more">2019-11-27</font>
+								<div class="news_title">
+									<a href="b3dbec12015945bbaff0938a6cc3a076.htm" title="护理与健康学院开展“不忘初心跟党走、砥砺前行正党风”入党启蒙教育">            护理与健康学院开展“不忘初心跟党走、砥砺前行正党风”入党启蒙教育 
+    </a>
+								</div>
+							</li>
+													<li>
+								<font class="right-more">2019-11-27</font>
+								<div class="news_title">
+									<a href="bc52ab0b2b14412ea113d6b6907c7e61.htm" title="护理与健康学院直属党支部学生党支部“黄文秀同志先进事迹”交流学习会暨学生党支部第一届委员会委员选举大会">            护理与健康学院直属党支部学生党支部“黄文秀同志先进事迹”交流学习会暨学生党支部第一届委员会... 
+    </a>
+								</div>
+							</li>
+													<li>
+								<font class="right-more">2019-11-22</font>
+								<div class="news_title">
+									<a href="0777e322125b4f8987410ae7230b468d.htm" title="“新时代·南苑风”公共管理活动月系列活动之十：卓越校友回校分享会">            “新时代·南苑风”公共管理活动月系列活动之十：卓越校友回校分享会 
+    </a>
+								</div>
+							</li>
+													<li>
+								<font class="right-more">2019-11-22</font>
+								<div class="news_title">
+									<a href="3787aa66923c416a95bc29fa4aef87e3.htm" title="第二届“新时代·南苑风”公共管理活动月系列活动之十二：校友企业招聘会活动精彩回顾">            第二届“新时代·南苑风”公共管理活动月系列活动之十二：校友企业招聘会活动精彩回顾 
+    </a>
+								</div>
+							</li>
+													<li>
+								<font class="right-more">2019-11-22</font>
+								<div class="news_title">
+									<a href="4d205db8c1ea49819fac3a6cb9007cff.htm" title="文学与传媒学院考研座谈暨2020年考研交流答疑会圆满结束">            文学与传媒学院考研座谈暨2020年考研交流答疑会圆满结束 
+    </a>
+								</div>
+							</li>
+													<li>
+								<font class="right-more">2019-11-22</font>
+								<div class="news_title">
+									<a href="6ed83fbdd5384204845782f490554a20.htm" title="“新时代·南苑风”公共管理活动月系列活动之十一：数字时代公关的机遇与挑战主题沙龙">            “新时代·南苑风”公共管理活动月系列活动之十一：数字时代公关的机遇与挑战主题沙龙 
+    </a>
+								</div>
+							</li>
+													<li>
+								<font class="right-more">2019-11-22</font>
+								<div class="news_title">
+									<a href="77893fa8079d4fe6858fb685e99742dd.htm" title="第二届“新时代·南苑风”公共管理活动月系列活动之十三：“果断点杯”第二届创新创业大赛决赛">            第二届“新时代·南苑风”公共管理活动月系列活动之十三：“果断点杯”第二届创新创业大赛决赛 
+    </a>
+								</div>
+							</li>
+													<li>
+								<font class="right-more">2019-11-22</font>
+								<div class="news_title">
+									<a href="96a53571471d4c60a43e582bc96da6fe.htm" title="第二届“新时代·南苑风”公共管理活动月系列活动之十四：猎头企业家俱乐部活动">            第二届“新时代·南苑风”公共管理活动月系列活动之十四：猎头企业家俱乐部活动 
+    </a>
+								</div>
+							</li>
+											</ul>
+						<div style="clear: both;"></div>
+						
+	<div class="pages" align="center">
+  <div>
+            
+    		    			<a class="prev" href="$cms.getIndexFileName($curChannel,$prePage)">&lt;&lt;</a>
+		        			<a class="next" href="index19.htm">&gt;&gt;</a>
+		    		  </div>
+</div>
+    </div></div>
+				</div>
+			</div>
+		</div>
+	</div>
+		<!-- end 内容区域-->	
+		
+		<!--底部-->
+		
+<div class="lin-footer">
+	<div class="lin-fer clearfix">
+		<div class="ferleft">
+			<ul class="fer-ul clearfix">
+			<li class="fer-li">
+			<a href="http://www.moe.gov.cn/" target="_blank" title="教育部">            教育部 
+    </a>
+		</li>
+			<li class="fer-li">
+			<a href="http://edu.gd.gov.cn/" target="_blank" title="广东省教育厅">            广东省教育厅 
+    </a>
+		</li>
+			<li class="fer-li">
+			<a href="http://www.sysu.edu.cn/2012/cn/index.htm" target="_blank" title="中山大学">            中山大学 
+    </a>
+		</li>
+	</ul>
+<ul class="fer-ul clearfix">
+			<li class="fer-li">
+			<a href="http://www.gz.gov.cn/" target="_blank" title="广州市政府">            广州市政府 
+    </a>
+		</li>
+			<li class="fer-li">
+			<a href="http://www.gdpr.com/" target="_blank" title="珠江投资">            珠江投资 
+    </a>
+		</li>
+			<li class="fer-li">
+			<a href="http://www.gdmbjy.cn/" target="_blank" title="广东民办教育网">            广东民办教育网 
+    </a>
+		</li>
+	</ul>
+<ul class="fer-ul clearfix">
+			<li class="fer-li">
+			<a href="https://www.cnki.net/" target="_blank" title="中国知网">            中国知网 
+    </a>
+		</li>
+	</ul>
+		</div>
+		<div class="fercen">
+			<div class="fer-er">
+				<img src="../images/erweima1.jpg">
+			</div>
+			<div class="fer-er">
+				<img src="../images/erweima2.jpg">
+			</div>
+		</div>
+		<div class="ferright">
+			<div>
+				<p>
+					<span>地址：广州市从化区温泉大道882号广州南方学院</span>
+					<span>邮编：510970</span>
+				</p>
+			</div>
+			<div class="addleft">
+				<p>联系电话：020-61787368</p>
+				<p>版权所有 ©  广州南方学院</p>
+				<p>技术支持：<a href="https://www.gpowersoft.com/" target="_blank">Gpower 通元软件</a>
+				</p>
+			</div>
+			<div class="addright">
+				<p>招生咨询：020-87912619</p> 
+				<p>
+					<span class="add-spante">
+						<a target="_blank" href="https://beian.miit.gov.cn/">粤ICP备11077779号</a>
+					</span> 
+					<span class="add-spante">
+						<a href="http://tycms.nfu.edu.cn/cms/main" target="_blank">网站管理</a>&nbsp;&nbsp;
+						<a href="http://old.nfu.edu.cn/" target="_blank">旧站入口</a>
+					</span>
+				</p>
+				
+			</div>
+		</div>
+		
+		<div align="center">
+			<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44011702000081" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
+				<img src="../images/icp.png" style="float:left;">
+				<p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#ffffff;">粤公网安备 44011702000081号</p>
+			</a>
+		</div>
+	</div>
+</div>		<!-- end 底部-->
+
+		<script type="text/javascript" language="javascript">
+			
+    //加入收藏
+    
+    function AddFavorite(sURL, sTitle) {
+    	
+    	sURL = encodeURI(sURL); 
+    	try{   
+    		
+    		window.external.addFavorite(sURL, sTitle);   
+    		
+    	}catch(e) {   
+    		
+    		try{   
+    			
+    			window.sidebar.addPanel(sTitle, sURL, "");   
+    			
+    		}catch (e) {   
+    			
+    			alert("加入收藏失败，请使用Ctrl+D进行添加,或手动在浏览器里进行设置.");
+    			
+    		}   
+    		
+    	}
+    	
+    }
+    
+    //设为首页
+    
+    function SetHome(url){
+    	
+    	if (document.all) {
+    		
+    		document.body.style.behavior='url(#default#homepage)';
+    		
+    		document.body.setHomePage(url);
+    		
+    	}else{
+    		
+    		alert("您好,您的浏览器不支持自动设置页面为首页功能,请您手动在浏览器里设置该页面为首页!");
+    		
+    	}
+    	
+    }
+    
+</script>
+
+
+
+</body></html><script type='text/javascript' src='../g_style/g_list.js'></script>
+</body></html>
